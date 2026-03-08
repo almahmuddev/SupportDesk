@@ -125,10 +125,6 @@ function App() {
                     </span>
                   </div>
                 </div>
-                {/* ✅ "Take Ticket" button */}
-                {/* <button onClick={() => handleTicketClick(ticket)}>
-                Take Ticket
-              </button> */}
               </div>
             ))}
           </div>
