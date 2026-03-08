@@ -1,19 +1,14 @@
 import './App.css'
 import ticketsData from './data/ticketsData'
-import { useEffect, useState } from 'react'
+import {  useState } from 'react'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'
 
 // react icon using
 
 function App() {
-  const [customerTickets, setCustomerTickets] = useState([]);
-
-  useEffect(() => {
-    setCustomerTickets(ticketsData);
-
-  },
-    []);
+  
+  const [customerTickets, setCustomerTickets] = useState(ticketsData);
 
   // live counters from state
   const inProgressCount = customerTickets?.filter(ticket => ticket.status === "In Progress").length;
