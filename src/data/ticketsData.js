@@ -1,0 +1,97 @@
+
+
+const ticketsData = [
+  {
+    id: 1001,
+    title: "Login Issues - Can't Access Account",
+    description: "Customer is unable to log in to their account. They've tried resetting their password multiple times but still...",
+    priority: "HIGH",
+    status: "Open",
+    assignee:"Benton D.",
+    createdAt: "2026-03-01"
+  },
+  {
+    id: 1002,
+    title: "Payment Failed - Card Declined",
+    description: "Customer attempted to pay using Visa ending 1234 but the payment keeps failing despite sufficient balance.",
+    priority: "MEDIUM",
+    status: "Open",
+    assignee:"Shoun W.",
+    createdAt: "2026-03-01"
+  },
+  {
+    id: 1003,
+    title: "Unable to Download Invoice",
+    description: "Customer cannot download their January invoice from the billing section. The download button is...",
+    priority: "HIGH",
+    status: "Open",
+    assignee:"Mark k.",
+    createdAt: "2026-02-12"
+  },
+  
+  {
+    id: 1004,
+    title: "Incorrect Billing Address",
+    description: "Customer’s billing address shows a different city. They updated it but it still displays the old one.",
+    priority: "LOW",
+    status: "Open",
+    assignee:"A. Rahman",
+    createdAt: "2026-03-11"
+  },
+  {
+    id: 1005,
+    title: "App Crash on Launch",
+    description: "Customer reports that the mobile app crashes immediately upon Opening on Android 13.",
+    priority: "HIGH",
+    status: "Open",
+    assignee:"Khubaib",
+    createdAt: "2026-03-01"
+  },
+  {
+    id: 1006,
+    title: "Refund Not Processed",
+    description: "Customer requested a refund two weeks ago but has not received the amount yet.",
+    priority: "MEDIUM",
+    status: "Open",
+    assignee:"Hitman",
+    createdAt: "2026-03-01"
+  },
+  {
+    id: 1007,
+    title: "Two-Factor Authentication Issue",
+    description: "Customer is not receiving 2FA codes on their registered phone number.",
+    priority: "HIGH",
+    status: "Open",
+    assignee:"Westin",
+    createdAt: "2026-03-01"
+  },
+  {
+    id: 1008,
+    title: "Unable to Update Profile Picture",
+    description: "Customer tries to upload a new profile picture but gets 'Upload failed' error.",
+    priority: "LOW",
+    status: "Open",
+    assignee:"Hero Alam",
+    createdAt: "2026-03-01"
+  },
+  {
+    id: 1009,
+    title: "Subscription Auto-Renewal",
+    description: "Customer wants to enable auto-renewal for their subscription but the toggle is disabled.",
+    priority: "MEDIUM",
+    status: "Open",
+    assignee:"A. Khan",
+    createdAt: "2026-03-01"
+  },
+  {
+    id: 1010,
+    title: "Missing Order Confirmation Email",
+    description: "Customer placed an order but didn't receive a confirmation email even though payment succeeded.",
+    priority: "MEDIUM",
+    status: "Open",
+    assignee:"M. Khan",
+    createdAt: "2026-03-01"
+  },
+];
+
+export default ticketsData;

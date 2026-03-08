@@ -1,0 +1,33 @@
+/* fonts connection */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e9e7e7d6;
+  font-family: "Inter", sans-serif;
+}
+
+h3 {
+  font-size: 1.3rem;
+  color: #2a3a49e9;
+}
+
+h4 {
+  color: #001931e8;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+/* @media screen and (max-width: 1000px) {
+  body{
+    max-width: 100%;
+  }
+} */
