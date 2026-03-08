@@ -406,13 +406,12 @@
 .footer-container {
   background-color: #000000;
   color: #a1a1a1;
-  padding: 60px 20px 30px 20px;
+  padding: 60px 0;
   font-family: 'Inter', sans-serif;
 }
 
 .footer-content {
-  max-width: 1200px;
-  margin: 0 auto;
+  padding: 0 5rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;

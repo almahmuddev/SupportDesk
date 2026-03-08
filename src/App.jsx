@@ -152,9 +152,7 @@ function App() {
           <div className="footer-section brand-info">
             <h2 className="footer-logo">CS — Ticket System</h2>
             <p className="footer-description">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-              when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+              Empowering your business with seamless customer support solutions. We bridge the gap between technical issues and happy customers through intuitive tools and real-time assistance.
             </p>
           </div>
           {/* Links Sections */}
