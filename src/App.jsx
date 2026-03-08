@@ -6,8 +6,6 @@ import 'react-toastify/dist/ReactToastify.css'
 
 // react icon using
 
-// import { FaxTwitter, FaLinkedIn, FaFacebookF, FaEnvelope } from 'react-icons/fa6'
-
 function App() {
   const [customerTickets, setCustomerTickets] = useState([]);
 
@@ -33,14 +31,6 @@ function App() {
     const ticket = customerTickets.find(t => t.id === id);
     toast.success(`${ticket.title} moved to In Progress!`);
   }
-  // const handleComplete = (id) => {
-  //   const ticket = customerTickets.find(t => t.id === id);
-  //   ticket.status = "Resolved";
-  //   setCustomerTickets([ ...customerTickets, ticket ]);
-  //    setInProgressTickets([...inProgressTickets, ticket]);
-  //   toast.success(`${ticket.title} moved to In Progress!`);
-
-  // }
 
   const handleComplete = (id) => {
 
@@ -119,7 +109,7 @@ function App() {
                     </span>
                   </div>
                   <div className='ticket-footer-right'>
-                    <span className='assignee-name'>{ticket.assignee}</span>
+                    <span className='customer-name'>{ticket.customer}</span>
                     <span className='ticket-date'>
                       <span>📅 {ticket.createdAt}</span>
                     </span>
@@ -134,8 +124,6 @@ function App() {
           {/* Task Status (In Progress) */}
           <div className="task-status">
             <h3>Task Status</h3>
-            {/* Task Status (In Progress) */}
-
             {customerTickets?.filter((ticket) => ticket.status === 'In Progress').map((ticket) => (
               <div key={ticket.id} className="task-card">
                 <div className='task-card-title'>{ticket.title}</div>
@@ -147,7 +135,7 @@ function App() {
 
           {/* resolved section */}
           <div className="resolved-tasks">
-            <h3>Resolved</h3>
+            <h3>Resolved ({resolvedCount})</h3>
             {customerTickets?.filter((ticket) => ticket.status === 'Resolved').map((ticket) => (
               <div key={ticket.id} className="task-card">
                 <div className='task-card-title'>{ticket.title}</div>

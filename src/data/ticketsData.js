@@ -7,7 +7,7 @@ const ticketsData = [
     description: "Customer is unable to log in to their account. They've tried resetting their password multiple times but still...",
     priority: "HIGH",
     status: "Open",
-    assignee:"Benton D.",
+    customer:"Benton D.",
     createdAt: "2026-03-01"
   },
   {
@@ -16,7 +16,7 @@ const ticketsData = [
     description: "Customer attempted to pay using Visa ending 1234 but the payment keeps failing despite sufficient balance.",
     priority: "MEDIUM",
     status: "Open",
-    assignee:"Shoun W.",
+    customer:"Shoun W.",
     createdAt: "2026-03-01"
   },
   {
@@ -25,7 +25,7 @@ const ticketsData = [
     description: "Customer cannot download their January invoice from the billing section. The download button is...",
     priority: "HIGH",
     status: "Open",
-    assignee:"Mark k.",
+    customer:"Mark k.",
     createdAt: "2026-02-12"
   },
   
@@ -35,7 +35,7 @@ const ticketsData = [
     description: "Customer’s billing address shows a different city. They updated it but it still displays the old one.",
     priority: "LOW",
     status: "Open",
-    assignee:"A. Rahman",
+    customer:"A. Rahman",
     createdAt: "2026-03-11"
   },
   {
@@ -44,7 +44,7 @@ const ticketsData = [
     description: "Customer reports that the mobile app crashes immediately upon Opening on Android 13.",
     priority: "HIGH",
     status: "Open",
-    assignee:"Khubaib",
+    customer:"Khubaib",
     createdAt: "2026-03-01"
   },
   {
@@ -53,7 +53,7 @@ const ticketsData = [
     description: "Customer requested a refund two weeks ago but has not received the amount yet.",
     priority: "MEDIUM",
     status: "Open",
-    assignee:"Hitman",
+    customer:"Hitman",
     createdAt: "2026-03-01"
   },
   {
@@ -62,7 +62,7 @@ const ticketsData = [
     description: "Customer is not receiving 2FA codes on their registered phone number.",
     priority: "HIGH",
     status: "Open",
-    assignee:"Westin",
+    customer:"Westin",
     createdAt: "2026-03-01"
   },
   {
@@ -71,7 +71,7 @@ const ticketsData = [
     description: "Customer tries to upload a new profile picture but gets 'Upload failed' error.",
     priority: "LOW",
     status: "Open",
-    assignee:"Hero Alam",
+    customer:"Hero Alam",
     createdAt: "2026-03-01"
   },
   {
@@ -80,7 +80,7 @@ const ticketsData = [
     description: "Customer wants to enable auto-renewal for their subscription but the toggle is disabled.",
     priority: "MEDIUM",
     status: "Open",
-    assignee:"A. Khan",
+    customer:"A. Khan",
     createdAt: "2026-03-01"
   },
   {
@@ -89,7 +89,7 @@ const ticketsData = [
     description: "Customer placed an order but didn't receive a confirmation email even though payment succeeded.",
     priority: "MEDIUM",
     status: "Open",
-    assignee:"M. Khan",
+    customer:"M. Khan",
     createdAt: "2026-03-01"
   },
 ];
